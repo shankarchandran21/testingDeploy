@@ -1,0 +1,48 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doughnut-container {
+  display: flex;
+  padding: 10px;
+}
+
+.doughnut-container .content2 {
+  margin-right: 20px;
+}
+
+.main-dashboard-container {
+  margin-top: 150px;
+}
+
+.main-dashboard-container .current-month {
+  /* width: 55%; */
+  text-align: center;
+  margin-bottom: 15px;
+  color: #5d67a8;
+  font-weight: 700;
+  font-size: 26px;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px;
+  background: aliceblue;
+}
+
+
+
+.doughnut-spin-user .spin-user {
+  display: block;
+  position: absolute;
+  width: 40px;
+  margin-left: 50%;
+  margin-top: 10%;
+  height: 40px;
+  z-index: 99999;
+}
+
+.main-dashboard-container .second-section{
+  border: 1px solid #d3d3d3;
+  margin: 20px;
+ 
+}

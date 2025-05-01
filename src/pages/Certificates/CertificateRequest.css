@@ -1,0 +1,131 @@
+@import "~antd/dist/antd.css";
+
+/* .main-certificates-continer {
+  margin-top: 150px;
+} */
+
+.requested-list-container {
+  /* border: 1px solid #f0f0f0 !important; */
+  height: 100%;
+}
+
+.requested-list-container .requested-list-header .ant-card-body {
+  padding: 10px;
+  background-color: #5a4bb3;
+  color: #fff;
+  font-size: 13px;
+}
+
+.requested-list-container .requested-list-header {
+  font-weight: 500;
+  margin: -10px 40px 0px;
+  font-size: 15px;
+  max-width: 250px;
+  /* border-bottom: 1px solid #f0f0f0 !important; */
+}
+
+.requested-list-container .requested-list-vertical {
+  border-top: 3px solid #5a4bb3;
+  margin: 0px 40px 0px 40px;
+}
+
+.requested-list-container .requested-list-table {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.requested-list-container .requested-list-header .ant-card-bordered {
+  border: 0 !important;
+}
+
+.requested-list-container #requested-list-spin {
+  position: fixed;
+  width: 100%;
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+  display: block;
+  z-index: 9999;
+}
+
+.requested-list-container #requested-list-spin .requested-list-spin-user {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.requested-list-container .table-row-light {
+  background-color: #ffffff;
+}
+.requested-list-container .table-row-dark {
+  background-color: #f0f2f8;
+}
+
+.requested-list-container thead[class*="ant-table-thead"] th {
+  background-color: #f0f2f8 !important;
+}
+
+.requested-list-container .spin-user {
+  display: block;
+  position: absolute;
+  width: 40px;
+  margin-left: 50%;
+  margin-top: 15%;
+  height: 40px;
+  z-index: 99999;
+}
+.requested-list-container .spin-user:before {
+  /* background-color: rgba(49, 37, 37, 0.2); */
+  border-radius: 6px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  content: " ";
+  }
+
+.requested-list-container .ant-select-multiple{
+  max-height: 60px;
+  overflow-y: auto;
+}
+.multi-forms{
+  background-color: #f2f0f8;
+    margin: 0px 40px 5px 40px;
+    height: unset;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 1.5rem;
+}
+.add-unit-btn,
+.add-unit-btn:hover,
+.add-unit-btn:active,
+.add-unit-btn:focus
+{
+  width: fit-content;
+  margin-right: 1.2rem;
+  background-color: rgb(255, 140, 89);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  border: unset;
+}
+.unit-submit-btn,
+.unit-submit-btn:hover,
+.unit-submit-btn:active,
+.unit-submit-btn:focus
+{
+  cursor: pointer;
+  background-color: rgb(87, 192, 89);
+  color: #fff;
+  border-radius: 10px;
+  border: unset;
+  margin-right: 1.2rem;
+}
+.errordiv{
+  display: block;
+    width: 20%;
+    margin: 1rem auto auto auto;
+    text-align: initial;
+}

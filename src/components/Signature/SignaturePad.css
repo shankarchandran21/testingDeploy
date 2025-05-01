@@ -1,0 +1,31 @@
+.signature {
+  /* width: 320px; */
+  border: 1px solid #d3d3d3;
+  margin-bottom: 10px;
+}
+
+/* .signature .canvas {
+  width: 500px !important;
+  max-height: 100px !important;
+} */
+
+.signature-button-container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto auto auto;
+}
+.signature-button-container .clear {
+  background: #ff8c59;
+  width: 80px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.signature-button-container .clear:hover,
+.signature-button-container .clear:focus,
+.signature-button-container .clear:active,
+.settings-container .submit-signature:hover,
+.settings-container .submit-signature:focus,
+.settings-container .submit-signature:active {
+  border-color: inherit;
+}

@@ -1,0 +1,75 @@
+.add-role-modal .add-role-switch {
+  display: grid;
+}
+
+.add-role-modal .add-role-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.add-role-modal .edit-role-container {
+  justify-content: center;
+  display: flex;
+}
+
+.add-role-modal .add-role-container .add-role-container-name,
+.add-role-modal .edit-role-container .add-role-container-name {
+  display: grid;
+  grid-template-columns: 100px 230px;
+}
+
+.add-role-modal
+  .add-role-container
+  .add-role-container-name
+  .add-role-name-text,
+.add-role-modal
+  .edit-role-container
+  .add-role-container-name
+  .add-role-name-text {
+  align-self: center;
+}
+
+.add-role-modal .add-role-switch {
+  display: grid;
+  grid-template-columns: 50px 75px;
+  justify-content: end;
+  text-align: center;
+  align-self: center;
+}
+
+.add-role-modal .spin-user {
+  display: block;
+  position: absolute;
+  width: 40px;
+  margin-left: 50%;
+  margin-top: 5%;
+  height: 40px;
+  z-index: 99999;
+}
+
+.add-role-modal .ant-btn:hover,
+.add-role-modal .ant-btn:focus {
+  background-color: #1890ff !important;
+  color: #fff !important;
+}
+
+/* .add-role-modal .details-container{
+      max-height: 300px;
+      overflow-y: scroll;
+  } */
+
+.add-role-modal .details-container .assigned-users {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.add-role-modal .details-container .assigned-users-select {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.add-role-modal .details-container .ant-select-selector {
+  max-height: 60px;
+  overflow: auto;
+}

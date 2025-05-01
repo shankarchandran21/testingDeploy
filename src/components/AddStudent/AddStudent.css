@@ -1,0 +1,104 @@
+.user-form .add-user-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 25px;
+}
+
+.user-form .user-vertical-line {
+  border: 2px solid #5b4cb3;
+  margin: 15px 85px 0px 85px;
+}
+
+.user-form .ant-card-body {
+  margin: 0px 75px 24px 75px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  -moz-box-shadow: 0px 3px 8px rgb(217, 217, 217);
+  -webkit-box-shadow: 0px 3px 8px rgb(217, 217, 217);
+  box-shadow: 0px 3px 8px rgb(217, 217, 217);
+}
+
+.user-form .user-form-header {
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.user-form .add-user-name {
+  width: 270px;
+  margin-right: 25px;
+}
+
+.user-form .user-form-button {
+  width: 300%;
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 30px;
+}
+
+.user-form .user-form-button .user-form-submit {
+  margin-right: 15px;
+  background-color: #0dd398;
+  color: #fff;
+  padding: 2px 25px;
+  border-radius: 5px;
+}
+
+.user-form .user-form-button .user-form-cancel {
+  background-color: #ff8c59;
+  color: #fff;
+  padding: 2px 25px;
+  border-radius: 5px;
+}
+
+.user-form .ant-form-item-explain.ant-form-item-explain-error {
+  text-align: start;
+}
+
+.user-form .ant-form-item-control-input-content {
+  text-align: start;
+}
+
+@media screen and (max-width: 1070px) {
+  .user-form .add-user-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.user-form .spin-user {
+  display: block;
+  position: absolute;
+  width: 40px;
+  margin-left: 50%;
+  margin-top: 10%;
+  height: 40px;
+  z-index: 99999;
+}
+
+.user-form .user-form-button .user-form-submit-container .ant-btn:hover,
+.user-form .user-form-button .user-form-submit-container .ant-btn:focus {
+  border-color: #0dd398 !important;
+}
+
+.user-form .user-form-button .user-form-cancel-container .ant-btn:hover,
+.user-form .user-form-button .user-form-cancel-container .ant-btn:focus {
+  border-color: #ff8c59 !important;
+}
+#add-user-spin  .overlay{
+  width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(99 99 99 / 24%) !important;
+    /* z-index: 2; */
+    cursor: pointer;
+    position: fixed !important;
+    text-align: center !important;
+    padding-top: 20% !important;
+    margin-left: unset !important;
+    margin-top: unset !important;
+}

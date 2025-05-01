@@ -1,0 +1,116 @@
+.page-not-found-container {
+    height: 100vh;
+  }
+  
+  .page-not-found-container .main {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    min-height: 500px;
+    z-index: 1;
+  }
+  
+  .page-not-found-container .main .left {
+    flex: 0 0 50%;
+    width: 50%;
+    padding-right: 152px;
+    padding-top: 50px;
+    zoom: 1;
+  }
+  .page-not-found-container .main .right {
+    flex: auto;
+  }
+  
+  .page-not-found-container .main .left .logo {
+    float: right;
+    width: 60%;
+    max-width: 295px;
+    /* height: 250px; */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    display: none;
+  }
+  
+  .page-not-found-container .main .right h1 {
+    margin-bottom: 24px;
+    color: #434e59;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .page-not-found-container .main .right .not-found-subtext {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 20px;
+    line-height: 28px;
+    color: #434e59;
+    width: 370px;
+
+  }
+
+  .page-not-found-container .back-to-home{
+    color: #fff;
+  }
+  
+  .page-not-found-container .main .right .not-found-button {
+    display: inline-block;
+    padding: 0 15px;
+    /* width: 100%; */
+    min-width: 140px;
+    max-width: 100%;
+    height: 38px;
+    margin: 24px auto 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #359144;
+    border-color: #005b30;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .page-not-found-container .main .right .not-found-button:hover {
+    background: #359144;
+  }
+  
+  .page-not-found-container .link {
+    text-align: center;
+  }
+  
+  .page-not-found-container .link a {
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer;
+    color: #dedede !important;
+  }
+  
+  @media all and (max-width: 576px) {
+    .page-not-found-container .main {
+      display: block;
+      text-align: center;
+    }
+  
+    .page-not-found-container .main .right {
+      height: 50%;
+      margin: 50px auto 0;
+      padding-right: 0;
+      padding-top: 0;
+    }
+  
+    .page-not-found-container .main .left {
+      display: inline-block;
+      text-align: center;
+      margin: 0 auto 0;
+      padding-right: 0;
+    }
+  
+    .page-not-found-container .main .left .logo {
+      float: none;
+      display: none;
+    }
+  }

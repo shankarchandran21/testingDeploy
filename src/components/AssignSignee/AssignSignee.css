@@ -1,0 +1,72 @@
+.assign-signee-modal {
+  width: 700px !important;
+}
+
+.assign-signee-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 25px;
+  grid-row-gap: 15px;
+}
+
+.assign-signee-container .assign-signee-header {
+  align-self: center;
+}
+
+.assign-signee-container .ant-select-selection-item[title="Select a Signee"] {
+  color: #bfbfbf;
+}
+
+.spin-user {
+  display: block;
+  position: absolute;
+  width: 40px;
+  margin-left: 50%;
+  margin-top: 5%;
+  height: 40px;
+  z-index: 99999;
+}
+
+.ant-modal-content {
+  min-width: 585px;
+}
+
+.required:after,
+.assign-signee-header::after {
+  content: " *";
+  color: red;
+}
+
+.assigned-signees-title {
+  font-weight: 500;
+  margin: 15px 0px 5px 0px;
+}
+
+.assign-signee-wrapper {
+  display: grid;
+  /* grid-template-columns: 90px auto 90px auto; */
+  grid-template-columns: auto;
+  padding: 9px 25px;
+  max-height: 250px;
+  overflow-y: scroll;
+  border: 1px solid #d3d3d3;
+}
+
+.assign-signee-wrapper-sub {
+  display: grid;
+  grid-template-columns: 200px auto;
+  line-height: 200%;
+}
+
+/* .assign-signee-wrapper-sub .assign-signee-details{
+  color: #5a4bb3;
+} */
+
+.assign-signee-wrapper-sub .assign-signee-details-key {
+  font-weight: 500;
+  text-transform: capitalize;
+  color: black;
+}
+.assign-signee-details-divider {
+  border: 1px solid #d3d3d3 !important;
+}

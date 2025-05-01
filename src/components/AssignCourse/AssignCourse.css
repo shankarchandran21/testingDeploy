@@ -1,0 +1,57 @@
+.assign-course-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.assign-course-container .assign-course-header {
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.assign-course-container
+  .ant-select-selection-item[title="Select Certificate Type"] {
+  color: #bfbfbf;
+}
+
+.assign-course-container .ant-select-multiple {
+  max-height: 60px;
+  overflow: auto;
+}
+
+.assign-course-container .ant-select-single {
+  align-self: center;
+}
+
+.assign-course-container .spin-user {
+  display: block;
+  position: absolute;
+  width: 40px;
+  margin-left: 50%;
+  margin-top: 5%;
+  height: 40px;
+  z-index: 99999;
+}
+
+.assign-roles-modal .ant-modal-content {
+  min-width: 665px;
+}
+
+.assign-course-container .ant-select-selector {
+  max-height: 60px;
+  overflow-y: auto;
+}
+.assigned-courses-container {
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.assigned-courses-title {
+  font-weight: 500;
+  margin: 15px 0px 15px 10px;
+}
+
+.assign-course-container .assign-course-header::after {
+  content: " *";
+  color: red;
+}

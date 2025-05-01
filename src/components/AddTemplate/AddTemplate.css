@@ -1,0 +1,45 @@
+@import "~antd/dist/antd.css";
+
+.add-template-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 50px;
+
+}
+
+.add-template-container .add-template-container-name {
+  display: grid;
+  height: 35px;
+  grid-template-columns: 105px 200px;
+}
+
+.add-template-container .add-template-container-name .add-template-name-text {
+  align-self: center;
+}
+
+.add-template-container .add-template-container-signess {
+  display: grid;
+  height: 35px;
+  grid-template-columns: 100px 200px;
+}
+
+.add-template-container .ant-input-number-sm input {
+  text-align: center;
+  height: 15px !important;
+}
+
+.add-template-container .add-templates-signees-label{
+  align-self: center;
+}
+
+.upload-pdf{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 200px 100px;
+  grid-gap: 30px;
+}
+
+.assign-template-modal .ant-btn:hover, .assign-template-modal .ant-btn:focus{
+  color: #40a9ff !important;
+  border-color: #40a9ff !important;
+}

@@ -1,0 +1,18 @@
+.csv-container{
+   /* margin-right: 25px; */
+   align-self: center;
+}
+
+.csv-container .csv{
+    border-radius: 10px;
+    background-color: #ff8c59 !important;
+    padding: 0px 10px !important;
+    height: 40px;
+    margin: 0px 0px !important;
+    color: white;
+    cursor: pointer;
+}
+
+.csv-container .csv:focus{
+    outline: 0;
+}

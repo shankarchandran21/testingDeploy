@@ -1,0 +1,39 @@
+@import "~antd/dist/antd.css";
+
+.basic-container .profile-details {
+  height: 100px;
+}
+
+.basic-container .ant-menu-submenu-horizontal .ant-menu-submenu-arrow {
+  display: block;
+}
+
+.basic-container .base-container-header {
+  padding: 0px;
+  padding-left: 16px;
+  background-color: #fff;
+}
+
+.basic-container .base-container-content {
+  margin: 24px;
+  /* padding: 24px; */
+  background-color: #fff;
+  min-height: 280px;
+}
+
+.basic-container .ant-card-bordered {
+  border: 0 !important;
+}
+
+.basic-container .base-container-header .ant-input {
+  border-radius: 10px;
+}
+
+.basic-container .base-container-header .name-search,
+.basic-container .base-container-header .course-search{
+  width: 200px;
+}
+
+.basic-container .base-container-header .course-search{
+    margin-left: 5px;
+}

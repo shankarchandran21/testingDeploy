@@ -1,0 +1,15 @@
+
+  
+  .back-button-import,
+  .back-button-import:hover,
+  .back-button-import:active,
+  .back-button-import:focus {
+    background-color: #ff8c59;
+    color: #fff;
+    margin-right: 15px;
+    border-radius: 6px;
+    min-width: 100px;
+    margin-left: 2.2rem;
+    margin-top: 1.2rem;
+    border-color: transparent;
+  }

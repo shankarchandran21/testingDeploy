@@ -1,0 +1,20 @@
+.dashboard-search{
+    text-align: initial;
+}
+.dashboard-search-multiform{
+    /* display: block !important; */
+    grid-template-columns:unset !important
+}
+.dashboard-search-container-multiform{
+    grid-template-columns:repeat(7, 1fr) !important;
+}
+.remove-button{
+    align-items: center;
+    padding-top: 1rem;
+}
+.dashboard-rangepicker-multiform{
+    min-width: 220px;
+}
+.dashboard-input-multiform{
+    min-width: 220px !important;
+}
